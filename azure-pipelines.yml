@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Welcome Application build & deploy using Azure pipeline!
+- script: echo Welcome Application build and deploy using Azure pipeline!
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
