@@ -10,5 +10,10 @@ public class DemoController {
 	    return "Welcome!!!!";
 	  }
 	
+	@GetMapping("/welcome/{name}")
+	  public String welcomeMessage(@PathVariable String name) {
+	    return "Hello There! Welcome "+name;
+	  }
+	
 	
 }
